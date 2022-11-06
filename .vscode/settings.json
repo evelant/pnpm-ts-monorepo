@@ -18,11 +18,10 @@
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   "files.exclude": {
-    //"**/.yarn*": true,
     //"**/.*.js": true,
     //"**/.swc": true,
     //"**/.changeset": true,
-    //"**/yarn.lock": true,
+    //"**/pnpm-lock.yaml": true,
     //"**/.*rc": true,
     //"**/.*config": true,
     //"**/.git*": true,

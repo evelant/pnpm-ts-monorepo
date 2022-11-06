@@ -1,12 +1,12 @@
 ### Starter Monorepo Setup [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/ts-plus/starter-lib)
 
-Install the dependencies with: `yarn`
+Install the dependencies with: `pnpm`
 
-Run prod build with: `yarn build`
+Run prod build with: `pnpm build`
 
-Run dev build with `yarn build-watch`
+Run dev build with `pnpm build-watch`
 
-Run test with: `yarn test` (note thet first you need to build)
+Run test with: `pnpm test` (note thet first you need to build)
 
 Run example files with `node packages/starter-lib/build/examples/EXAMPLE_FILE.js`
 
