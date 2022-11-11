@@ -1,9 +1,9 @@
 {
-  "name": "@org/starter-lib",
+  "name": "@whetware/logivore",
   "version": "0.0.0",
   "type": "module",
-  "repository": "https://github.com/ts-plus/installer.git",
-  "author": "Michael Arnaldi <arnaldimichael@gmail.com>",
+  "repository": "https://github.com/evelant/logivore.git",
+  "author": "Andrew Morsillo <andrew@taskheroics.com>",
   "license": "MIT",
   "publishConfig": {
     "access": "public",
@@ -34,8 +34,9 @@
     }
   },
   "dependencies": {
-    "@tsplus/runtime": "^0.1.3",
-    "@tsplus/stdlib": "^0.2.2"
+    "@tsplus/runtime": "^0.1.10",
+    "@tsplus/stdlib": "^0.2.8",
+    "@effect/core": "^0.0.16"
   },
   "config": {
     "side": [],

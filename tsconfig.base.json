@@ -39,17 +39,17 @@
         "incremental": true,
         "removeComments": false,
         "paths": {
-            "@org/starter-lib": [
-                "./packages/starter-lib/_src/index.ts"
+            "@whetware/logivore": [
+                "./packages/logivore/_src/index.ts"
             ],
-            "@org/starter-lib/test/*": [
-                "./packages/starter-lib/_test/*"
+            "@whetware/logivore/test/*": [
+                "./packages/logivore/_test/*"
             ],
-            "@org/starter-lib/examples/*": [
-                "./packages/starter-lib/_examples/*"
+            "@whetware/logivore/examples/*": [
+                "./packages/logivore/_examples/*"
             ],
-            "@org/starter-lib/*": [
-                "./packages/starter-lib/_src/*"
+            "@whetware/logivore/*": [
+                "./packages/logivore/_src/*"
             ],
         }
     },

@@ -1,4 +1,4 @@
-import { Age, Name, Person } from "@org/starter-lib"
+import { Age, Name, Person } from "@whetware/logivore"
 
 const person: Person = {
   name: Name.make("Michael"),

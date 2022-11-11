@@ -38,7 +38,7 @@ jobs:
           CI: "true"
       - name: Examples
         run: |
-          cd packages/starter-lib
+          cd packages/logivore
           node build/examples/main.js
         env:
           CI: "true"

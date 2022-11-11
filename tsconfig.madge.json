@@ -4,23 +4,23 @@
         "allowJs": true,
         "baseUrl": ".",
         "paths": {
-            "@org/starter-lib": [
-                "./packages/starter-lib/build/esm/index.js"
+            "@whetware/logivore": [
+                "./packages/logivore/build/esm/index.js"
             ],
-            "@org/starter-lib/test/*": [
-                "./packages/starter-lib/build/test/*"
+            "@whetware/logivore/test/*": [
+                "./packages/logivore/build/test/*"
             ],
-            "@org/starter-lib/examples/*": [
-                "./packages/starter-lib/build/examples/*"
+            "@whetware/logivore/examples/*": [
+                "./packages/logivore/build/examples/*"
             ],
-            "@org/starter-lib/*": [
-                "./packages/starter-lib/build/esm/*"
+            "@whetware/logivore/*": [
+                "./packages/logivore/build/esm/*"
             ],
         }
     },
     "include": [
-        "./packages/starter-lib/build/esm/**/*.js",
-        "./packages/starter-lib/build/test/**/*.js",
-        "./packages/starter-lib/build/examples/**/*.js"
+        "./packages/logivore/build/esm/**/*.js",
+        "./packages/logivore/build/test/**/*.js",
+        "./packages/logivore/build/examples/**/*.js"
     ]
 }

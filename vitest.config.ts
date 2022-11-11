@@ -8,7 +8,7 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      "@org/starter-lib": path.resolve(__dirname, "packages/starter-lib")
+      "@whetware/logivore": path.resolve(__dirname, "packages/logivore")
     }
   }
 })
