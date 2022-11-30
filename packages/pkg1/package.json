@@ -1,8 +1,8 @@
 {
-  "name": "@whetware/logivore",
+  "name": "@pnpm-ts-monorepo/pkg1",
   "version": "0.0.0",
   "type": "module",
-  "repository": "https://github.com/evelant/logivore.git",
+  "repository": "https://github.com/evelant/pnpm-ts-monorepo.git",
   "author": "Andrew Morsillo <andrew@taskheroics.com>",
   "license": "MIT",
   "publishConfig": {
@@ -36,7 +36,8 @@
   "dependencies": {
     "@tsplus/runtime": "^0.1.10",
     "@tsplus/stdlib": "^0.2.8",
-    "@effect/core": "^0.0.16"
+    "@effect/core": "^0.0.16",
+    "@pnpm-ts-monorepo/pkg2": "workspace:*"
   },
   "config": {
     "side": [],

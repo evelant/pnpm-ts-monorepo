@@ -8,7 +8,7 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      "@whetware/logivore": path.resolve(__dirname, "packages/logivore")
+      "@org/pnpm-ts-monorepo": path.resolve(__dirname, "packages/pnpm-ts-monorepo")
     }
   }
 })

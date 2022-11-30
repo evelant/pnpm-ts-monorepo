@@ -65,7 +65,20 @@ importers:
       vite: 2.9.15
       vitest: 0.16.0_c8@7.12.0
 
-  packages/logivore:
+  packages/pkg1:
+    specifiers:
+      '@effect/core': ^0.0.16
+      '@pnpm-ts-monorepo/pkg2': workspace:*
+      '@tsplus/runtime': ^0.1.10
+      '@tsplus/stdlib': ^0.2.8
+    dependencies:
+      '@effect/core': 0.0.16
+      '@pnpm-ts-monorepo/pkg2': link:../pkg2
+      '@tsplus/runtime': 0.1.10
+      '@tsplus/stdlib': 0.2.8
+    publishDirectory: dist
+
+  packages/pkg2:
     specifiers:
       '@effect/core': ^0.0.16
       '@tsplus/runtime': ^0.1.10

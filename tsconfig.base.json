@@ -39,17 +39,29 @@
         "incremental": true,
         "removeComments": false,
         "paths": {
-            "@whetware/logivore": [
-                "./packages/logivore/_src/index.ts"
+            "@pnpm-ts-monorepo/pkg1": [
+                "./packages/pkg1/_src/index.ts"
             ],
-            "@whetware/logivore/test/*": [
-                "./packages/logivore/_test/*"
+            "@pnpm-ts-monorepo/pkg1/test/*": [
+                "./packages/pkg1/_test/*"
             ],
-            "@whetware/logivore/examples/*": [
-                "./packages/logivore/_examples/*"
+            "@pnpm-ts-monorepo/pkg1/examples/*": [
+                "./packages/pkg1/_examples/*"
             ],
-            "@whetware/logivore/*": [
-                "./packages/logivore/_src/*"
+            "@pnpm-ts-monorepo/pkg1/*": [
+                "./packages/pkg1/_src/*"
+            ],
+            "@pnpm-ts-monorepo/pkg2": [
+                "./packages/pkg2/_src/index.ts"
+            ],
+            "@pnpm-ts-monorepo/pkg2/test/*": [
+                "./packages/pkg2/_test/*"
+            ],
+            "@pnpm-ts-monorepo/pkg2/examples/*": [
+                "./packages/pkg2/_examples/*"
+            ],
+            "@pnpm-ts-monorepo/pkg2/*": [
+                "./packages/pkg2/_src/*"
             ],
         }
     },

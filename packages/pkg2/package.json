@@ -1,0 +1,45 @@
+{
+  "name": "@pnpm-ts-monorepo/pkg2",
+  "version": "0.0.0",
+  "type": "module",
+  "repository": "https://github.com/evelant/pnpm-ts-monorepo.git",
+  "author": "Andrew Morsillo <andrew@taskheroics.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "directory": "dist"
+  },
+  "scripts": {
+    "clean": "pnpm -w org:rimraf build tsbuildinfo dist",
+    "build-cjs": "pnpm -w org:babel build/esm --config-file ./.babel.cjs.json --out-dir build/cjs --out-file-extension .js --source-maps",
+    "build-mjs": "pnpm -w org:babel build/esm --config-file ./.babel.mjs.json --out-dir build/mjs --out-file-extension .mjs --source-maps",
+    "build-post": "pnpm -w org:build-utils pack",
+    "build-pack": "pnpm -w org:tsc -b tsconfig.json && pnpm -w org:concurrently \"pnpm build-cjs\" \"pnpm build-mjs\" && pnpm build-post",
+    "lint": "pnpm -w org:eslint . --ext .ts,.tsx",
+    "autofix": "pnpm lint --fix",
+    "tc": "pnpm -w org:tsc --noEmit"
+  },
+  "exports": {
+    ".": {
+      "import": "./build/esm/index.js"
+    },
+    "./examples/*": {
+      "import": "./build/examples/*.js"
+    },
+    "./test/*": {
+      "import": "./build/test/*.js"
+    },
+    "./*": {
+      "import": "./build/esm/*.js"
+    }
+  },
+  "dependencies": {
+    "@tsplus/runtime": "^0.1.10",
+    "@tsplus/stdlib": "^0.2.8",
+    "@effect/core": "^0.0.16"
+  },
+  "config": {
+    "side": [],
+    "modules": []
+  }
+}

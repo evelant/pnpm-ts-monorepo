@@ -1,8 +1,8 @@
 {
-  "name": "logivore",
+  "name": "pnpm-ts-monorepo",
   "private": true,
   "type": "module",
-  "repository": "https://github.com/evelant/logivore.git",
+  "repository": "https://github.com/evelant/pnpm-ts-monorepo.git",
   "author": "Andrew Morsillo <andrew@taskheroics.com>",
   "license": "MIT",
   "workspaces": [

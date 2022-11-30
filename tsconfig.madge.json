@@ -4,23 +4,23 @@
         "allowJs": true,
         "baseUrl": ".",
         "paths": {
-            "@whetware/logivore": [
-                "./packages/logivore/build/esm/index.js"
+            "@org/pnpm-ts-monorepo": [
+                "./packages/pnpm-ts-monorepo/build/esm/index.js"
             ],
-            "@whetware/logivore/test/*": [
-                "./packages/logivore/build/test/*"
+            "@org/pnpm-ts-monorepo/test/*": [
+                "./packages/pnpm-ts-monorepo/build/test/*"
             ],
-            "@whetware/logivore/examples/*": [
-                "./packages/logivore/build/examples/*"
+            "@org/pnpm-ts-monorepo/examples/*": [
+                "./packages/pnpm-ts-monorepo/build/examples/*"
             ],
-            "@whetware/logivore/*": [
-                "./packages/logivore/build/esm/*"
+            "@org/pnpm-ts-monorepo/*": [
+                "./packages/pnpm-ts-monorepo/build/esm/*"
             ],
         }
     },
     "include": [
-        "./packages/logivore/build/esm/**/*.js",
-        "./packages/logivore/build/test/**/*.js",
-        "./packages/logivore/build/examples/**/*.js"
+        "./packages/pnpm-ts-monorepo/build/esm/**/*.js",
+        "./packages/pnpm-ts-monorepo/build/test/**/*.js",
+        "./packages/pnpm-ts-monorepo/build/examples/**/*.js"
     ]
 }

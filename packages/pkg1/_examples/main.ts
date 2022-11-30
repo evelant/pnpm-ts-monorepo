@@ -1,4 +1,4 @@
-import { Age, Name, Person } from "@whetware/logivore"
+import { Age, Name, Person } from "@pnpm-ts-monorepo/pkg1"
 
 const person: Person = {
   name: Name.make("Michael"),

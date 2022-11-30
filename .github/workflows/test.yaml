@@ -38,7 +38,7 @@ jobs:
           CI: "true"
       - name: Examples
         run: |
-          cd packages/logivore
+          cd packages/pnpm-ts-monorepo
           node build/examples/main.js
         env:
           CI: "true"

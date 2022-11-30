@@ -2,7 +2,10 @@
     "extends": "./tsconfig.base.json",
     "references": [
         {
-            "path": "packages/logivore"
+            "path": "packages/pkg1"
+        },
+        {
+            "path": "packages/pkg2"
         }
     ]
 }

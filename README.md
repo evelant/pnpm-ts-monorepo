@@ -1,4 +1,4 @@
-### Starter Monorepo Setup [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/evelant/logivore)
+### Starter Monorepo Setup [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/evelant/pnpm-ts-monorepo)
 
 Install the dependencies with: `pnpm`
 
@@ -8,7 +8,7 @@ Run dev build with `pnpm build-watch`
 
 Run test with: `pnpm test` (note thet first you need to build)
 
-Run example files with `node packages/logivore/build/examples/EXAMPLE_FILE.js`
+Run example files with `node packages/pnpm-ts-monorepo/build/examples/EXAMPLE_FILE.js`
 
 ## VSCode
 
@@ -16,4 +16,4 @@ Tasks setup, running the `test-watch` task will run build in watch mode and test
 
 Be sure you select the right typescript version, you should be prompted a notice when opening the ide, if that is not the case:
 
-Open a TS file like `packages/logivore/src/index.ts` and then click in the `{}` near `TypeScript` in the bottom right corner of your editor and select the version from the workspace.
+Open a TS file like `packages/pnpm-ts-monorepo/src/index.ts` and then click in the `{}` near `TypeScript` in the bottom right corner of your editor and select the version from the workspace.
